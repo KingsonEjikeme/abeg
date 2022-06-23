@@ -1,0 +1,36 @@
+.future {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.donate-to-cause {
+  margin: auto;
+  margin-top: 50px;
+  width: 70%;
+  height: fit-content;
+  padding: 50px !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.raise-target {
+  display: flex;
+}
+.raise {
+  display: flex;
+  margin-right: 300%;
+}
+.target {
+  margin-left: auto !important;
+}
+.linear-progress-bar {
+  position: relative;
+}
+.linear-percentage {
+  position: absolute;
+  top: 1px;
+  margin-left: 5px;
+}
+.feature-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,19 @@
+.nav-contact {
+  position: absolute;
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 6vh;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+.nav-contact-item {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #e7e3e0;
+}

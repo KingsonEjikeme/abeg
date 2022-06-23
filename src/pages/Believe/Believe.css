@@ -1,0 +1,41 @@
+.believe {
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  padding-top: 50px;
+  position: relative;
+  z-index: -1;
+}
+.believe-box-container {
+  margin-top: 30px;
+  justify-content: center;
+}
+.believe-box {
+  margin: 10px;
+  margin-right: 50px;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  background-color: grey;
+  padding: 5px;
+  border-radius: 5px;
+}
+.center-text {
+  margin-top: 60px !important;
+  font-size: 13px;
+}
+.believe-box:nth-child(1) {
+  background-color: #c4c4c4;
+}
+.believe-box:nth-child(2) {
+  background-color: #8a2323;
+}
+.believe-box:nth-child(3) {
+  background-color: #ed862e;
+}
+.believe-box:nth-child(4) {
+  background-color: #73b242;
+}
+.believe-box:nth-child(5) {
+  background-color: #530e64;
+}

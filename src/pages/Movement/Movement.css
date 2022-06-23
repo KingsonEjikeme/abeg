@@ -1,0 +1,16 @@
+.movement {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+}
+.movement-image {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.movement-image-text {
+  position: absolute;
+  top: 50px;
+  text-align: center;
+}

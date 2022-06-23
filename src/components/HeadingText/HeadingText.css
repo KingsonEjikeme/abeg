@@ -1,0 +1,24 @@
+.heading-text {
+  position: relative;
+  width: fit-content;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+.heading-text-content {
+  position: relative;
+  z-index: 102;
+}
+.heading-underline {
+  position: absolute;
+  width: calc(100% - 20px);
+
+  z-index: 10;
+  top: 11px;
+  height: 25%;
+  left: 20px;
+  border: 7px solid #ffd5b0;
+  color: #ffd5b0 !important;
+  background-color: #ffd5b0;
+  font-size: 30px;
+}

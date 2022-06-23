@@ -1,0 +1,22 @@
+.footer {
+  background-color: black;
+  height: 250px;
+  width: 100%;
+  color: white;
+  display: flex;
+  padding: 50px 140px;
+}
+
+.footer-heading {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.footer-section {
+  margin-right: 100px;
+}
+.footer-item {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}

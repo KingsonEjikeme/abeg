@@ -1,0 +1,51 @@
+.support-tab {
+  width: 1140px;
+  height: fit-content;
+  background-color: #c19874;
+  position: absolute;
+  top: 480px;
+  margin-left: 3vw !important;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+.support-item {
+  display: flex;
+  margin-right: 10px;
+}
+.support-item-content {
+  display: flex;
+  flex-direction: column;
+}
+.support-tab-icon {
+  text-align: right;
+  padding-right: 20px;
+}
+.support-icon {
+  height: 40px;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+.support-tab-title {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 10px;
+  margin-bottom: 18px;
+}
+.support-tab-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.support-tab-container {
+  display: flex;
+  padding: 10px 20px;
+}
