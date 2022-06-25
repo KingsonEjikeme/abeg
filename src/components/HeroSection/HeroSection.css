@@ -21,3 +21,10 @@
   letter-spacing: 0.02em;
   text-align: left;
 }
+
+@media screen and (max-width: 820px) {
+  .hero-text {
+    font-size: 45px !important;
+    line-height: 60px;
+  }
+}

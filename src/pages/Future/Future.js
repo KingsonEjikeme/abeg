@@ -48,11 +48,12 @@ const Future = () => {
               >
                 <LinearProgress variant="determinate" value={10} />
                 <div className="linear-percentage">10%</div>
+                <Box className="raise-target">
+                <Box className="raise">Raised: 10</Box>
+                <Box className="target">Target: 100</Box>
               </Box>
-              <Box className="raise-target">
-                <Box className="raise">Raised</Box>
-                <Box className="target">Target</Box>
               </Box>
+              
             </Grid>
             <Grid container>
               <Button

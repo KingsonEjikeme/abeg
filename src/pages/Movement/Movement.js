@@ -7,8 +7,11 @@ const Movement = () => {
     <div className="movement">
       <img src={Jump} alt="Jump" className="movement-image" />
       <div className="movement-image-text">
+        <div className="movement-heading-text">
         <HeadingText text={"Join the movement"} />
-        <div>
+        </div>
+        
+        <div className="movement-text">
           We believe that children should have access to the quality books and
           reading materials as this
         </div>

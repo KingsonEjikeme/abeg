@@ -27,6 +27,10 @@ const SupportTab = () => {
             </div>
           </div>
 
+
+          <div className="support-line"></div>
+
+
           <div className="support-item">
             <div className="support-tab-icon" item xs={6}>
               <img src={Hand} alt="" className="support-icon" />
@@ -41,6 +45,8 @@ const SupportTab = () => {
               </div>
             </div>
           </div>
+
+          <div className="support-line"></div>
 
           <div className="support-item">
             <div className="support-tab-icon" item xs={6}>

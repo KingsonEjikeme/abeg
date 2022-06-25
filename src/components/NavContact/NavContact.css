@@ -17,3 +17,8 @@
 
   color: #e7e3e0;
 }
+@media screen and (max-width: 820px) {
+  .nav-contact {
+    display: none;
+  }
+}

@@ -16,7 +16,7 @@
 }
 .raise {
   display: flex;
-  margin-right: 300%;
+  margin-right: auto;
 }
 .target {
   margin-left: auto !important;

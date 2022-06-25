@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   z-index: -1;
+  width: 100%;
 }
 .movement-image {
   height: 500px;
@@ -11,6 +12,15 @@
 }
 .movement-image-text {
   position: absolute;
-  top: 50px;
+  top: 0;
   text-align: center;
+  padding: 30px !important;
+  font-family: "Poppins", sans-serif;
+}
+.movement-heading-text {
+  margin-bottom: 20px;
+}
+.movement-text {
+  width: 400px;
+  margin: auto;
 }

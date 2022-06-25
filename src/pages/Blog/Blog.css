@@ -1,8 +1,7 @@
 .blog {
   position: relative;
   background-color: none;
-  padding-left: 200px;
-  margin-right: 200px;
+  margin: auto;
 }
 .section-title {
   text-align: center;
