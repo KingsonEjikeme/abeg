@@ -4,6 +4,7 @@ import Logo from "./../../assets/abeigilogo.png";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { Box, Fade, Modal } from "@mui/material";
+import { HashLink as Link } from 'react-router-hash-link';
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
@@ -12,7 +13,7 @@ const Navbar = () => {
         <div className="navbar-left">
           <div className="navbar-item">Home</div>
           <div className="navbar-item">About</div>
-          <div className="navbar-item">Blog</div>
+          <div className="navbar-item"><Link to="#blog">Blog</Link></div>
         </div>
 
         <div className="navbar-center">
@@ -54,7 +55,7 @@ const Navbar = () => {
             <div className="navbar-menu-items">
               <div className="navbar-menu-item">Home</div>
               <div className="navbar-menu-item">About</div>
-              <div className="navbar-menu-item">Blog</div>
+              <div className="navbar-menu-item"><Link to="#blog">Blog</Link></div>
               <div className="navbar-menu-item">Volunteer</div>
               <div className="navbar-menu-item">Contact</div>
               <div className="navbar-menu-item">Donate</div>

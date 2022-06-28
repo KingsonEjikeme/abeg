@@ -29,6 +29,30 @@
     margin-right: 50px;
   }
 }
+@media screen and (max-width: 400px) {
+  .footer {
+    height: 120px;
+    width: 100%;
+    color: white;
+    display: flex;
+    padding: 20px;
+  }
+  .footer-item {
+    margin-bottom: 2px;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  .footer-heading {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+  .footer-section {
+    margin-right: 50px;
+  }
+}
 
 @media screen and (max-width: 400px) {
   .footer {
@@ -42,11 +66,13 @@
     font-size: 15px;
     font-weight: 700;
     margin-bottom: 10px;
+    opacity: 0.8;
   }
   .footer-item {
     margin-bottom: 2px;
-    font-size: 0.3rem;
+    font-size: 12px;
     cursor: pointer;
+    opacity: 0.5;
   }
   .footer-section {
     margin-right: 50px;

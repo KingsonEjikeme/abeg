@@ -6,7 +6,7 @@ import HeadingText from "../../components/HeadingText/HeadingText";
 
 const Blog = () => {
   return (
-    <div className="blog">
+    <section className="blog" id="blog">
      
       <HeadingText className="section-title" text={'Abe-igi Stories'}/>
       
@@ -53,7 +53,7 @@ const Blog = () => {
             </Button>
       </Grid>
       
-    </div>
+    </section>
   );
 };
 
