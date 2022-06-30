@@ -61,8 +61,8 @@ const Navbar = () => {
               <div className="navbar-menu-item" onClick={closeResponsiveNav}>About</div>
               <div className="navbar-menu-item"><Link to="blog" spy={true} smooth={true} offset={50} duration={500} onClick={closeResponsiveNav}>Blog</Link></div>
               <div className="navbar-menu-item" onClick={closeResponsiveNav}>Volunteer</div>
-              <div className="navbar-menu-item" onClick={closeResponsiveNav}>Contact</div>
-              <div className="navbar-menu-item" onClick={closeResponsiveNav}>Donate</div>
+              <div className="navbar-menu-item" onClick={closeResponsiveNav}><Link to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={closeResponsiveNav}>Contact</Link></div>
+              <div className="navbar-menu-item" onClick={closeResponsiveNav}><Link to="donate" spy={true} smooth={true} offset={50} duration={500} onClick={closeResponsiveNav}>Donate</Link></div>
             </div>
           </Box>
         </Fade>
