@@ -8,6 +8,9 @@ import { Box, Fade, Modal } from "@mui/material";
 import {Link} from 'react-scroll'
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const closeResponsiveNav =()=>{
+    setMenuOpen(false);
+  }
   return (
     <>
       <div className="navbar">
@@ -54,12 +57,12 @@ const Navbar = () => {
               </div>
             </div>
             <div className="navbar-menu-items">
-              <div className="navbar-menu-item">Home</div>
-              <div className="navbar-menu-item">About</div>
-              <div className="navbar-menu-item"><Link to="blog" spy={true} smooth={true} offset={50} duration={500}>Blog</Link></div>
-              <div className="navbar-menu-item">Volunteer</div>
-              <div className="navbar-menu-item">Contact</div>
-              <div className="navbar-menu-item">Donate</div>
+              <div className="navbar-menu-item" onClick={closeResponsiveNav}>Home</div>
+              <div className="navbar-menu-item" onClick={closeResponsiveNav}>About</div>
+              <div className="navbar-menu-item" onClick={closeResponsiveNav}><Link to="blog" spy={true} smooth={true} offset={50} duration={500}>Blog</Link></div>
+              <div className="navbar-menu-item" onClick={closeResponsiveNav}>Volunteer</div>
+              <div className="navbar-menu-item" onClick={closeResponsiveNav}>Contact</div>
+              <div className="navbar-menu-item" onClick={closeResponsiveNav}>Donate</div>
             </div>
           </Box>
         </Fade>
