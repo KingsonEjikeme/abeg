@@ -10,6 +10,9 @@ import Movement from "./pages/Movement/Movement";
 import { Fade, Grow } from "@mui/material";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import Transition from "./transitions/Transition";
+import BlogSection from "./pages/BlogSection/BlogSection";
+import HeadingText from "./components/HeadingText/HeadingText";
+import Home from "./pages/Home/Home";
 
 function App() {
   const { pathname, hash, key } = useLocation();
@@ -25,21 +28,19 @@ function App() {
   }, [pathname, hash, key]);
 
   return (
-    <div className="App">
       <Fade in={true} timeout={500}>
-        <div>
+        <div className="App">
           <NavContact />
           <Navbar />
-          <Transition>
-            <HeroSection />
-          </Transition>
-          <Future />
-          <Movement />
-          <Blog />
+          <Routes>
+            <Route path="/" element={<Home />} exact />
+            <Route path="blog" element={<BlogSection />}/>
+          </Routes>
+
           <Footer />
+         
         </div>
       </Fade>
-    </div>
   );
 }
 

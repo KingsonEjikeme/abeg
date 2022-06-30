@@ -6,7 +6,7 @@ import Girl from './../../assets/kiana-bosman-0pB01U2NDCQ-unsplash.jpg';
 import "./Future.css";
 const Future = () => {
   return (
-    <div className="future">
+    <div className="future" id="donate">
       <HeadingText text={"Feature Project"} />
       <div className="donate-to-cause">
         <Grid container spacing={10}>

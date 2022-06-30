@@ -53,4 +53,6 @@
 }
 .blog-item-read {
   justify-content: right;
+  color: #ed862e;
+  cursor: pointer;
 }

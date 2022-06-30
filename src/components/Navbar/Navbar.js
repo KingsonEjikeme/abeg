@@ -4,16 +4,17 @@ import Logo from "./../../assets/abeigilogo.png";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { Box, Fade, Modal } from "@mui/material";
-import { HashLink as Link } from 'react-router-hash-link';
+// import { HashLink as Link } from 'react-router-hash-link';
+import {Link} from 'react-scroll'
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <>
       <div className="navbar">
         <div className="navbar-left">
-          <div className="navbar-item">Home</div>
+          <div className="navbar-item"><Link to="#" spy={true} smooth={true} offset={50} duration={500}>Home</Link></div>
           <div className="navbar-item">About</div>
-          <div className="navbar-item"><Link to="#blog">Blog</Link></div>
+          <div className="navbar-item"><Link to="blog" spy={true} smooth={true} offset={50} duration={500}>Blog</Link></div>
         </div>
 
         <div className="navbar-center">
@@ -24,8 +25,8 @@ const Navbar = () => {
 
         <div className="navbar-right">
           <div className="navbar-item">Volunteer</div>
-          <div className="navbar-item">Contact</div>
-          <div className="navbar-item">Donate</div>
+          <div className="navbar-item"><Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link></div>
+          <div className="navbar-item"><Link to="donate" spy={true} smooth={true} offset={50} duration={500}>Donate</Link></div>
         </div>
 
         <div className="navbar-menu" onClick={() => setMenuOpen(!menuOpen)}>
@@ -55,7 +56,7 @@ const Navbar = () => {
             <div className="navbar-menu-items">
               <div className="navbar-menu-item">Home</div>
               <div className="navbar-menu-item">About</div>
-              <div className="navbar-menu-item"><Link to="#blog">Blog</Link></div>
+              <div className="navbar-menu-item"><Link to="blog" spy={true} smooth={true} offset={50} duration={500}>Blog</Link></div>
               <div className="navbar-menu-item">Volunteer</div>
               <div className="navbar-menu-item">Contact</div>
               <div className="navbar-menu-item">Donate</div>
