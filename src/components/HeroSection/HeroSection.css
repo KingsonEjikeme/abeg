@@ -15,7 +15,7 @@
   color: white;
   font-weight: 800;
   font-family: "Poppins", sans-serif;
-  font-size: 6vw;
+  font-size: 5.3vw;
   font-weight: 800;
   line-height: 8vw;
   letter-spacing: 0.02em;
@@ -27,4 +27,7 @@
     font-size: 45px !important;
     line-height: 60px;
   }
+}
+.typewriter {
+  font-size: 10px !important;
 }
